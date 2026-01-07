@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://bm856mc1trea6"]
+[gd_scene load_steps=3 format=3 uid="uid://c41avq3fabb8x"]
 
-[ext_resource type="Script" path="res://player_snake/snake.gd" id="1_dwdx5"]
+[sub_resource type="GDScript" id="GDScript_t0otl"]
+script/source = "extends CharacterBody2D
+"
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_cfsa3"]
 
 [node name="Snake" type="CharacterBody2D"]
-script = ExtResource("1_dwdx5")
+script = SubResource("GDScript_t0otl")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 
