@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bm856mc1trea6"]
 
-[ext_resource type="Script" path="res://snake.gd" id="1_dwdx5"]
+[ext_resource type="Script" path="res://player_snake/snake.gd" id="1_dwdx5"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_cfsa3"]
 
